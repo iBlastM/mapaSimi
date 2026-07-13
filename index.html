@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RED SIMI · Cobertura de Farmacias Similares en México</title>
+  <meta name="description" content="Mapa de calor de sucursales de Farmacias Similares en México e índice de sucursales por cada 10 000 habitantes, por estado y municipio." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#app">Saltar al contenido</a>
+  <header class="topbar">
+    <a class="brand" href="#/mapa">
+      <span class="brand-mark" aria-hidden="true">+</span>
+      <span class="brand-name">RED<span class="brand-accent">SIMI</span></span>
+    </a>
+    <nav class="nav" aria-label="Secciones">
+      <a href="#/mapa" data-top="/mapa">Mapa</a>
+      <a href="#/acerca" data-top="/acerca">Acerca</a>
+    </nav>
+    <span class="src-badge" title="Fuente de datos">DENUE · Censo INEGI 2020</span>
+  </header>
+
+  <main id="app" class="app"><!-- las vistas se montan aquí --></main>
+
+  <footer class="foot">
+    <span>RED SIMI — cobertura territorial de Farmacias Similares.</span>
+    <span class="foot-src">Sucursales: DENUE · Población: Censo de Población y Vivienda 2020 (INEGI).</span>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
