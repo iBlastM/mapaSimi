@@ -1,1 +1,2 @@
-*.geojson filter=lfs diff=lfs merge=lfs -text
+﻿# GeoJSON y JSON se sirven como archivos normales.
+# GitHub Pages NO resuelve Git LFS, por eso *.geojson ya no usa LFS.
