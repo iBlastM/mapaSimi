@@ -1,1 +1,16 @@
-data/
+# Datos fuente pesados (solo para build_data.py; NO se usan en runtime)
+/data/*
+!/data/metrics.json
+
+# GeoJSON de origen (solo entradas de build_data.py)
+/geojsons/*_simple.geojson
+/geojsons/*_full.geojson
+
+# Temporales de Python
+__pycache__/
+*.pyc
+
+# Temporales de verificación
+_*.py
+_*.txt
+_*.png
